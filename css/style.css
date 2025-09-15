@@ -1,0 +1,367 @@
+/* fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  background-color: #ebe8c8;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.carousel-inner h2{
+ font-family: Pacifico;
+}
+
+
+/* header */
+
+header {
+  background-color: #e9db60;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Pacifico';
+  font: size 400;
+  font-weight: bold;
+  margin: 30px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li a {
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.boton {
+ color: #000;
+}
+.boton:hover{
+  color: #636262;
+}
+
+/*----- main-------- */
+.tituloprincipal {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/imagenencabezado.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tituloprincipal h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+  font-family: Pacifico;
+  font-size: 50px;
+
+  text-align: center;
+  padding: top;
+}
+
+p {
+  margin: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+.provincias {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around
+}
+
+.provincias div {
+  width: 500px;
+  height: 500 px;
+  border: 2px solid rgb(140, 235, 116);
+  margin: 20px;
+
+}
+
+.provincias div img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+}
+
+.provincias h2 {
+  color: rgb(38, 39, 39);
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.provincias div h3 {
+  color: rgb(247, 100, 3);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.provincias div h4 {
+  text-align: start;
+  margin-left: 10px;
+}
+
+.provincias div p {
+  color: black;
+  font-size: 20;
+  margin: 20px;
+}
+
+
+.Norte {
+  background-color: rgb(235, 236, 178);
+
+}
+
+.Centro {
+  background-color: rgb(238, 227, 129);
+
+}
+
+.SuryPatagonia {
+  background-color: rgb(238, 217, 95);
+
+}
+
+/* seccion de lugares destacados */
+
+
+.destacados {
+  background: #d2e091;
+  display: inline-block;
+  margin: 30px;
+  border: 2px solid rgb(140, 235, 116);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+
+
+p {
+  color: rgb(27, 3, 247);
+}
+
+.contenido1 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.contenido1 div {
+  flex-direction: column;
+  text-align: center;
+}
+
+.contenido1 h3 {
+  margin-top: 30px;
+}
+
+.contenido1 img {
+  width: 700px;
+  height: 400px;
+  padding: 10px;
+}
+
+.contenido1 {
+  border: #000 solid;
+  margin: 30px;
+}
+
+.contenido2 {
+  border: #000 solid;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.contenido1norte {
+  justify-content: center;
+  text-align: center;
+}
+
+.contenido1norte div h2 {
+  background-color: hsla(44, 94%, 48%, 0.808);
+  margin-top: 20px;
+}
+
+.grid-galeria {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  gap: 20px;
+}
+
+.grid-galeria div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-1 {
+  grid-column: span 2;
+}
+
+.img-4 {
+  grid-column: span 2;
+}
+
+.img-5 {
+  grid-column: span 2;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item h3 {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  background-color: #00000046;
+  padding: 5px;
+  width: 100%;
+}
+
+.bodegas {
+  background-color: hsla(44, 94%, 48%, 0.808);
+  text-align: center;
+  padding: 5px;
+}
+
+.bodegas h3 {
+  padding: 5px;
+}
+
+.grid-galeria2 {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+}
+
+.grid-galeria2 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-7 {
+  grid-column: span 1;
+}
+
+.img-8 {
+  grid-column: span 1;
+}
+
+.img-9 {
+  grid-column: span 1;
+}
+
+.img-10 {
+  grid-column: span 1;
+}
+
+.grid-item {
+  position: relative;
+}
+
+
+/* footer */
+.grid-footer {
+
+  background-color: hsla(44, 84%, 63%, 0.808);
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 50px;
+  gap: 10px;
+}
+
+.grid-footer1 h3 {
+  color: #000;
+  font-family: Pacifico;
+}
+
+.grid-footer1 {
+  background-color: rgb(240, 240, 183);
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-footer1 img {
+  width: 50px;
+  height: 100px
+}
+
+.grid-footer2 {
+  background-color: rgb(240, 240, 183);
+  padding: 10px;
+  text-align: center;
+}
+
+
+.grid-footer3 {
+  background-color: rgb(240, 240, 183);
+  padding: 10px;
+  text-align:center;
+ 
+}
+
+.grid-footer4 {
+  background-color: rgb(240, 240, 183);
+  text-align: left;
+  grid-column: span 3;
+
+}
+
+.grid-footer4 p {
+  color: #000;
+}
+
+footer ul li a {
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+
+}
