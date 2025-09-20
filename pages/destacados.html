@@ -12,20 +12,45 @@
 </head>
 <body>
     <header>
-      <img src="../img/logo.png" alt="logo"></img>
-    <h1>Mis viajes por Argentina</h1>
-    
-    <nav>
-      <ul>
-        <!--Lista de menu -->
-        <li><a href="../index.html" class="boton ">INICIO</a></li>
-        <li><a href="./centronorte.html"class="boton " >CENTRO Y NORTE</a></li>
-        <li><a href="./destacados.html"class="boton ">DESTACADOS</a></li>
-        <li><a href="./sur.html"class="boton">SUR Y PATAGONIA</a></li>
-        <li><a href="./contact.html"class="boton">CONTACTO</a></li>
-      </ul>
-    </nav>
-    
+       <!-- Contenido de la barra -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-warning" data-bs-theme="light">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-marca" src="../img/logo.png" alt="logo de la web">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/norte.html">Norte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sur.html">Sur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/centro.html">Centro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./destacados.html">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                   
+                    
+                </div>
+            </div>
+        </nav>
+     <!-- fin de nav-->
   </header>
   <main>
       <img src="../img/encabezadodestacados.jpg" alt="encabezadodestacados">
@@ -60,11 +85,12 @@
 
         <div class="grid-footer2">
           <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/centronorte.html">Centro y Norte</a></li>
+           <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/norte.html">Norte</a></li>
             <li><a href="../pages/sur.html">Sur y Patagonia</a></li>
-            <li><a href="../pages/destacados.html">Destacados</a></li>
-            <li><a href="./contact.html">Contáctenos</a></li>
+             <li><a href="../pages/centro.html">Centro</a></li>
+            <li><a href="./destacados.html">Destacados</a></li>
+            <li><a href="../pages/contact.html">Contáctenos</a></li>
           </ul>
         </div>
 
