@@ -1,0 +1,234 @@
+.grid-provincias {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    gap: 20px;
+
+    div img {
+        width: 100%;
+        padding: 5px;
+    }
+
+    div h2 {
+        color: rgb(38, 39, 39);
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+    }
+
+    div h3 {
+        color: rgb(247, 100, 3);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+    }
+
+    div h4 {
+        color: rgb(247, 100, 3);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        margin-left: 10px;
+    }
+
+    div p {
+        color: black;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .grid-item-norte {
+        background-color: rgb(231, 224, 157);
+        text-align: center;
+    }
+
+    .grid-item-centro {
+        background-color: rgb(226, 216, 121);
+        text-align: center;
+    }
+
+    .grid-item-surypatagonia {
+        background-color: nth($colores, 1);
+        text-align: center;
+    }
+}
+
+.destacados {
+    background-color: $color-principal;
+    width: 98%;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+    h3 {
+        color: $color-terciario;
+        background-color: $color-secundario;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contenido1 {
+        @extend %arreglo1;
+        margin: 20px;
+
+        div {
+            img {
+                width: 100%;
+            }
+
+            h3 {
+                @include arreglo2(blue, white);
+                font-weight: bold;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+
+        }
+    }
+
+    .contenido2 div {
+        width: 97%;
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+
+        iframe {
+            width: 100%;
+        }
+    }
+
+
+}
+
+//finde index//
+// inicio norte //
+.contenido1norte {
+    background-color: #6f8011;
+    background: linear-gradient(98deg, rgba(111, 128, 17, 1) 0%, rgba(198, 219, 105, 1) 35%, rgba(232, 232, 46, 1) 58%, rgba(245, 234, 132, 1) 100%);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    div h2 {
+        background-color: hsla(44, 94%, 48%, 0.808);
+        margin-top: 20px;
+
+    }
+}
+
+p {
+    padding: 10px;
+}
+
+.grid-galeria {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px;
+
+    div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img-1 {
+        grid-column: span 2;
+    }
+
+    .img-4 {
+        grid-column: span 2;
+    }
+
+    .img-5 {
+        grid-column: span 2;
+    }
+
+    .grid-item h3 {
+        position: absolute;
+        bottom: 0;
+        color: #ffffff;
+        background-color: #00000046;
+        padding: 5px;
+        width: 100%;
+    }
+
+}
+
+.bodegas {
+    background-color: #6f8011;
+    background: linear-gradient(98deg, rgba(111, 128, 17, 1) 0%, rgba(198, 219, 105, 1) 35%, rgba(232, 232, 46, 1) 58%, rgba(245, 234, 132, 1) 100%);
+    text-align: center;
+    padding: 5px;
+
+    h3 {
+        padding: 5px;
+    }
+
+}
+
+.grid-galeria2 {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+
+    div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+
+        .img-7 {
+            grid-column: span 1;
+        }
+
+        .img-8 {
+            grid-column: span 1;
+        }
+
+        .img-9 {
+            grid-column: span 1;
+        }
+
+        .img-10 {
+            grid-column: span 1;
+        }
+    }
+
+}
+
+.carouselnorte {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 20px auto;
+}
+
+.botonvideo {
+    background-color: #d2e091;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition: 2s;
+
+
+}
+/* fin norte */

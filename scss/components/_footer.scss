@@ -1,0 +1,35 @@
+.grid-footer {
+    display: grid;
+    background-color: hsla(44, 84%, 63%, 0.808);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+    .grid-footer1 {
+        padding: 10px;
+
+        img {
+            width: 242px;
+        }
+    }
+
+    .grid-footer2 {
+        ul {
+            padding: 10px;
+            list-style: none;
+        }
+
+        li a {
+            font-size: small;
+            text-decoration: none;
+            &:hover{color: brown;}
+        }
+    }
+
+    .grid-footer3 {
+        p{ font-size: small;}
+    }
+}

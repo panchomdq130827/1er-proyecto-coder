@@ -1,7 +1,11 @@
-/* fuentes*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.destacados .contenido1 {
+  background-color: rgb(80, 110, 34);
+  border: 1px solid black;
+}
 
+/* fuentes*/
 /* reset */
 * {
   margin: 0;
@@ -10,7 +14,6 @@
 }
 
 /* body */
-
 body {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -19,7 +22,7 @@ body {
 
 h1 {
   color: rgb(253, 255, 255);
-  font-family: 'Pacifico';
+  font-family: "Pacifico";
   font: size 400;
   font-weight: bold;
   margin: 30px;
@@ -33,29 +36,23 @@ p {
   margin: 20px;
 }
 
-
 .grid-provincias {
   margin: 10px;
-  display: inline-block;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100%;
   gap: 20px;
-
 }
-
 .grid-provincias div img {
   width: 100%;
   padding: 5px;
 }
-
 .grid-provincias div h2 {
   color: rgb(38, 39, 39);
   font-weight: bold;
   text-align: center;
   margin: 10px;
 }
-
 .grid-provincias div h3 {
   color: rgb(247, 100, 3);
   font-size: 30px;
@@ -63,7 +60,6 @@ p {
   text-align: center;
   margin: 10px;
 }
-
 .grid-provincias div h4 {
   color: rgb(247, 100, 3);
   font-size: 30px;
@@ -72,65 +68,52 @@ p {
   margin: 10px;
   margin-left: 10px;
 }
-
 .grid-provincias div p {
   color: black;
   font-size: 15px;
   margin: 10px;
 }
-
-/* contenido de tarjeta norte---*/
-.grid-item-norte {
+.grid-provincias .grid-item-norte {
   background-color: rgb(231, 224, 157);
   text-align: center;
 }
-
-/* contenido de tarjeta centro---*/
-.grid-item-centro {
+.grid-provincias .grid-item-centro {
   background-color: rgb(226, 216, 121);
   text-align: center;
 }
-
-/* contenido de tarjeta sur */
-.grid-item-surypatagonia {
-  background-color: rgb(235, 216, 52);
+.grid-provincias .grid-item-surypatagonia {
+  background-color: rgb(90, 196, 4);
   text-align: center;
 }
-
-
-/* seccion de lugares destacados */
 
 .destacados {
-  background: #d2e091;
+  background-color: rgba(137, 173, 52, 0.5058823529);
   width: 98%;
   margin: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-style: italic;
 }
-
 .destacados h3 {
-  background-color: #89ad3481;
+  color: yellow;
+  background-color: #d2e091;
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
 }
-
-.contenido1 {
+.destacados .contenido1 {
   margin: 20px;
 }
-
-.contenido1 div img {
+.destacados .contenido1 div img {
   width: 100%;
 }
-
-.contenido1 div h3 {
-  background-color: #89ad3481;
+.destacados .contenido1 div h3 {
+  background-color: blue;
+  color: white;
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
 }
-
-.contenido2 div {
+.destacados .contenido2 div {
   width: 97%;
   display: flex;
   padding: 5px;
@@ -138,34 +121,28 @@ p {
   text-align: center;
   margin: 20px;
 }
-
-.contenido2 iframe {
+.destacados .contenido2 div iframe {
   width: 100%;
 }
 
-/* fin de  pagina index */
-/* inicio pagina norte */
-
 .contenido1norte {
   background-color: #6f8011;
-  background: linear-gradient(98deg, rgba(111, 128, 17, 1) 0%, rgba(198, 219, 105, 1) 35%, rgba(232, 232, 46, 1) 58%, rgba(245, 234, 132, 1) 100%);
+  background: linear-gradient(98deg, rgb(111, 128, 17) 0%, rgb(198, 219, 105) 35%, rgb(232, 232, 46) 58%, rgb(245, 234, 132) 100%);
   width: 100%;
   height: 100%;
   justify-content: center;
   text-align: center;
 }
-
 .contenido1norte img {
   width: 100%;
   height: 100%;
 }
-
 .contenido1norte div h2 {
   background-color: hsla(44, 94%, 48%, 0.808);
   margin-top: 20px;
 }
 
-  p {
+p {
   padding: 10px;
 }
 
@@ -176,45 +153,35 @@ p {
   grid-template-rows: 200px 200px 200px;
   gap: 20px;
 }
-
 .grid-galeria div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-.img-1 {
+.grid-galeria .img-1 {
   grid-column: span 2;
 }
-
-.img-4 {
+.grid-galeria .img-4 {
   grid-column: span 2;
 }
-
-.img-5 {
+.grid-galeria .img-5 {
   grid-column: span 2;
 }
-
-.grid-item {
-  position: relative;
-}
-
-.grid-item h3 {
+.grid-galeria .grid-item h3 {
   position: absolute;
   bottom: 0;
   color: #ffffff;
-  background-color: #00000046;
+  background-color: rgba(0, 0, 0, 0.2745098039);
   padding: 5px;
   width: 100%;
 }
 
 .bodegas {
   background-color: #6f8011;
-  background: linear-gradient(98deg, rgba(111, 128, 17, 1) 0%, rgba(198, 219, 105, 1) 35%, rgba(232, 232, 46, 1) 58%, rgba(245, 234, 132, 1) 100%);
+  background: linear-gradient(98deg, rgb(111, 128, 17) 0%, rgb(198, 219, 105) 35%, rgb(232, 232, 46) 58%, rgb(245, 234, 132) 100%);
   text-align: center;
   padding: 5px;
 }
-
 .bodegas h3 {
   padding: 5px;
 }
@@ -226,29 +193,23 @@ p {
   grid-template-rows: 200px 200px;
   gap: 20px;
 }
-
 .grid-galeria2 div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-.img-7 {
+.grid-galeria2 div img .img-7 {
   grid-column: span 1;
 }
-
-.img-8 {
+.grid-galeria2 div img .img-8 {
   grid-column: span 1;
 }
-
-.img-9 {
+.grid-galeria2 div img .img-9 {
   grid-column: span 1;
 }
-
-.img-10 {
+.grid-galeria2 div img .img-10 {
   grid-column: span 1;
 }
-
 
 .carouselnorte {
   max-width: 800px;
@@ -256,7 +217,6 @@ p {
   margin: 20px auto;
 }
 
-/* efecto transition*/
 .botonvideo {
   background-color: #d2e091;
   width: 100%;
@@ -268,177 +228,7 @@ p {
   transition: 2s;
 }
 
-.botonvideo:hover {
-  width: 700px;
-  transform: translateX(550px);
-}
-
-/* fin de seccion de la pagina norte */
-
-/* seccion de la pagina sur */
-
-.contenido1sur {
-  justify-content: center;
-  text-align: center;
-}
-
-.contenido1sur div h2 {
-  background-color: hsla(44, 94%, 48%, 0.808);
-  margin-top: 20px;
-}
-
-.grid-galeriasur {
-  margin: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px;
-  gap: 20px;
-}
-
-.grid-galeriasur div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.img-1sur {
-  grid-row: span 2;
-}
-
-.img-4sur {
-  grid-column: span 2;
-}
-
-.grid-item {
-  position: relative;
-}
-
-.grid-item h3 {
-  position: absolute;
-  bottom: 0;
-  color: #ffffff;
-  background-color: #00000046;
-  padding: 5px;
-  width: 100%;
-}
-
-
-.contenido2sur {
-  text-align: center;
-  padding: 5px;
-  margin: 10px
-}
-
-.contenido2sur h2 {
-  background-color: hsla(44, 94%, 48%, 0.808);
-}
-
-.contenido2sur h3 {
-  padding: 5px;
-}
-
-.grid-galeria2sur {
-  margin: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px;
-  gap: 20px;
-}
-
-.grid-galeria2sur div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.grid-item {
-  position: relative;
-}
-
-.grid-item h3 {
-  position: absolute;
-  bottom: 0;
-  color: #ffffff;
-  background-color: #00000046;
-  padding: 5px;
-  width: 100%;
-}
-
-.carouselsur {
-  max-width: 800px;
-  max-height: 600px;
-  margin: 20px auto;
-}
-
-/* fin pagina sur */
-
-/* aca arranca el formulario de contacto */
-.baseformulario {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-
-.contenido-form {
-  background-color: #f1f1c3;
-  padding: 30px;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 400px;
-}
-
-.contenido-form h4 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.contenido-form h5 {
-  margin-bottom: 20px;
-}
-
-.formato-form label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #555;
-}
-
-.formato-form input[type="text"],
-.formato-form input[type="email"],
-
-.formato-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-.formato-form textarea {
-  resize: vertical;
-
-}
-
-.submit-button {
-  width: 100%;
-  padding: 12px;
-  margin-top: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-
-}
-
-.submit-button:hover {
-  background-color: #0056b3;
-}
-
-/* fin formulario de contacto */
-
-
-/* inicio footer general*/
+/* fin norte */
 .grid-footer {
   display: grid;
   background-color: hsla(44, 84%, 63%, 0.808);
@@ -448,130 +238,98 @@ p {
   align-items: center;
   justify-items: center;
   text-align: center;
-
 }
-
-.grid-footer1 {
+.grid-footer .grid-footer1 {
   padding: 10px;
-
 }
-
-.grid-footer1 img {
+.grid-footer .grid-footer1 img {
   width: 242px;
-
 }
-
-.grid-footer2 ul {
+.grid-footer .grid-footer2 ul {
   padding: 10px;
   list-style: none;
-
 }
-
-.grid-footer2 ul li a {
+.grid-footer .grid-footer2 li a {
   font-size: small;
   text-decoration: none;
 }
-
-.grid-footer2 a:hover {
+.grid-footer .grid-footer2 li a:hover {
   color: brown;
-
 }
-
-.grid-footer3 p {
+.grid-footer .grid-footer3 p {
   font-size: small;
 }
 
-/* fin footer general */
-
-/* inicia @media  */
-
-@media screen and (max-width:811px) {
+@media screen and (max-width: 811px) {
   .grid-provincias {
     display: block;
   }
-
   .grid-provincias div img {
     width: 90%;
     padding: 10px;
   }
-
   .grid-provincias div p {
     font-size: 16px;
     padding: 10px;
     margin: 5px;
   }
 }
-
-@media screen and (max-width:743px) {
+@media screen and (max-width: 743px) {
   .grid-galeria {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 200px 200px;
   }
-
   .img-1 {
     grid-column: span 1;
   }
-
   .img-4 {
     grid-column: span 1;
   }
-
   .img-5 {
     grid-column: span 1;
   }
-
   .grid-item {
     position: relative;
   }
-
   .grid-footer {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 150px;
   }
-
   .grid-footer1 img {
     width: 180px;
     height: 63px;
   }
-
   .grid-footer3 div {
     align-items: center;
   }
 }
-
-@media screen and (max-width:681px) {
-
+@media screen and (max-width: 681px) {
   .contenido2 div {
-   
     padding: 10px;
   }
-
   .grid-footer {
     width: 100%;
     height: 100%;
     grid-template-columns: repeat(1, 1fr);
-
   }
 }
-
-@media screen and (max-width:489px) {
+@media screen and (max-width: 489px) {
   .grid-galeria {
     grid-template-columns: 1fr;
     grid-auto-rows: 200px;
   }
-
   .grid-footer {
     width: 100%;
     height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-
 }
-
-@media screen and (max-width:440px) {
+@media screen and (max-width: 440px) {
   .grid-galeria2 {
     grid-template-columns: 1fr;
     grid-template-rows: 200px;
   }
 }
+
+/*# sourceMappingURL=estilos.css.map */
