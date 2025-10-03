@@ -7,106 +7,179 @@
 
   <title>Mis viajes por Argentina</title>
   <!--aca se pone el link de css-->
-  <link rel="stylesheet" href="../css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-       <!-- Contenido de la barra -->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-warning" data-bs-theme="light">
 
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img class="logo-marca" src="../img/logo.png" alt="logo de la web">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/norte.html">Norte</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/sur.html">Sur</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/centro.html">Centro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./destacados.html">Destacados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                   
-                    
-                </div>
-            </div>
-        </nav>
-     <!-- fin de nav-->
+<body>
+  <header>
+    <!-- Contenido de la barra -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning" data-bs-theme="light">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo-marca" src="../img/logo.png" alt="logo de la web">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/norte.html">Norte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/sur.html">Sur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./destacados.html">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contacto</a>
+            </li>
+          </ul>
+
+
+        </div>
+      </div>
+    </nav>
+    <!-- fin de nav-->
   </header>
   <main>
-      <img src="../img/encabezadodestacados.jpg" alt="encabezadodestacados">
     <section>
-      <h2> Lugares Destacados para descubrir</h2>
-      <h3> Iruya en Humahuaca - Salta </h3>
-      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, vitae velit quia in praesentium repellat iure modi ad iste sapiente at error delectus voluptate, porro aut ratione, eius aspernatur debitis.lorem ipsum, dolor sit amet consectetur adipisicing elit. A, vitae velit quia in praesentium repellat iure modi ad iste sapiente at error delectus voluptate, porro aut ratione, eius aspernatur debitis..lorem ipsum, dolor sit amet consectetur adipisicing elit. A, vitae velit quia in praesentium repellat iure modi ad iste sapiente at error delectus voluptate, porro aut ratione, eius aspernatur debitis.</p>
+      <div class="carouseldestacados">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/encabezadodestacados.jpg" class="d-block w-100" alt="plato1">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/encabezadodestacados1.jpg" class="d-block w-100" alt="plato2">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/encabezadodestacados2.jpg" class="d-block w-100" alt="plato3">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+              <h2> Lugares Destacados que descubrí en mis viajes...</h2>
+      <h2> Pueblo de Iruya Humahuaca - Salta </h2>
+      <p> Iruya es un pintoresco y antiguo pueblo de montaña en Salta, Argentina, conocido por su arquitectura colonial, calles empedradas y un entorno natural impresionante con montañas coloridas y ríos. Los visitantes lo describen como un lugar tranquilo y mágico, ideal para disfrutar de caminatas, visitar su iglesia histórica, y hacer senderismo a pueblos cercanos como San Isidro. Es un destino perfecto para quienes buscan conexión con la naturaleza, historia y una atmósfera única. </p>
+      <section class="contenedor-destacados1">
+        <div>
       <img src="../img/iruya1.jpg" class="fotosdesecciones" alt="iruya1">
       <img src="../img/iruya2.jpg" class="fotosdesecciones" alt="iruya2">
-      </section>
-      <section>
-        <h3> Villa Gral Belgrano y Embalse Rio Tercero - Cordoba </h3>
-      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, vitae velit quia in praesentium repellat iure modi ad iste sapiente at error delectus voluptate, porro aut ratione, eius aspernatur debitis.lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-      <img src="../img/villagralbelgrano.jpg" class="fotosdesecciones" alt="villagralbelgrano">
-      <img src="../img/embalseriotercero.jpg" class="fotosdesecciones" alt="saltodeltigre">
-      </section>
-<section>
-<h3>Termas Lahuen Có y Playa Brazo Tristeza</h3>
-<h4> Termas Lahuen Có, San Martín de Los Andes</h4>
-<h4> Playa Brazo Tristeza - Bariloche </h4>
-<img src="../img/lahuenco.jpg" class="fotosdesecciones" alt="lahuenco">
-  <img src="../img/brazotristezabariloche.jpg" class="fotosdesecciones" alt="brazotristezabariloche">
+    </div>  
     </section>
-    
-     <!--Este es el final de la pagina-->
- <footer>
-      <section class="grid-footer">
-        <div class="grid-footer1">
-          <h3>Mis Viajes por Argentina</h3>
-          <img src="../img/logo.png" alt="logo"></img>
-        </div>
+     <div class="ajuste-iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166464.22125759788!2d-65.12707965893316!3d-22.788588151282635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x940456eb1dc1f4b5%3A0xafc3aef6c01e4139!2sIruya%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1759503670237!5m2!1ses-419!2sar" width="1200" height="400" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+     
+     <h2> Villa Gral Belgrano - Cordoba </h2>
+      <p> Villa General Belgrano es un pintoresco destino serrano en Córdoba, famoso por su arquitectura de estilo alpino y su herencia alemana, que ofrece gastronomía centroeuropea, cervezas artesanales y una fuerte impronta cultural con festividades como la Fiesta Nacional de la Cerveza. Ideal para el contacto con la naturaleza gracias a sus senderos, arroyos y cerros, la villa invita a recorrer sus calles céntricas a pie, disfrutar de sus tiendas y disfrutar de una atmosfera de tranquilidad y hospitalidad.  </p>
+    <section class="contenedor-destacados2">
+      <div>   
+      <img src="../img/villagralbelgrano.jpg" class="fotosdesecciones" alt="villagralbelgrano1">
+      <img src="../img/villagralbelgrano2.jpg" class="fotosdesecciones" alt="villagralbelgrano2">
+    </div>   
+    </section>
+ <div class="ajuste-iframe">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54150.37863469297!2d-64.59709185121855!3d-31.97720663762742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2b05df32fdf21%3A0xca30b7769d4566d3!2sVilla%20Gral.%20Belgrano%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1759503595811!5m2!1ses-419!2sar" width="1200" height="400" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+    <h2>Termas Lahuen Có - Río Negro</h2>
+      <h4> Termas Lahuen Có, San Martín de Los Andes</h4>
+      <p> Las Termas Lahuen Có, cerca de Junín de los Andes y a unos 82 km de San Martín de los Andes, son un complejo termal natural dentro del Parque Nacional Lanín, con pozos de aguas minerales calientes y un hotel de montaña abandonado. El acceso al sitio se realiza por caminos de ripio y senderos entablonados, siendo un destino ideal para el turismo alternativo y de aventura, con pozos señalizados y libre acceso a las aguas.  </p>
+    <section class="contenedor-destacados3">
+      <div>   
+      <img src="../img/lahuenco1.jpg" class="fotosdesecciones" alt="lahuenco1">
+      <img src="../img/lahuenco2.jpg" class="fotosdesecciones" alt="lahuenco2">
+    </div>  
+    </section>
+ <div class="ajuste-iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104372.92129477877!2d-69.93771033976711!3d-35.16525411901836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967aede8279293cd%3A0x9739f8ae1fb27964!2sHotel%20Termas%20Lahuen-C%C3%B3!5e0!3m2!1ses-419!2sar!4v1759503532622!5m2!1ses-419!2sar" 
+      width="1200" height="400" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    <h2>San Miguel del Río - Córdoba</h2>
+      <h4> Una joya escondida. El pueblo ideal para desconectar de la rutina y hacer turismo aventura rodeado de paisajes</h4>
+      <p> Ubicado en el corazón de las sierras cordobesas, San Miguel de los Ríos es uno de esos destinos que sorprenden por su belleza natural y su tranquilidad. Ideal tanto para quienes buscan desconectarse del ritmo urbano como para los amantes del turismo aventura, este pequeño pueblo se consolida como una joya escondida dentro del mapa turístico de la provincia de Córdoba.
 
-        <div class="grid-footer2">
-          <ul>
-           <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/norte.html">Norte</a></li>
-            <li><a href="../pages/sur.html">Sur y Patagonia</a></li>
-             <li><a href="../pages/centro.html">Centro</a></li>
-            <li><a href="./destacados.html">Destacados</a></li>
-            <li><a href="../pages/contact.html">Contáctenos</a></li>
-          </ul>
-        </div>
+San Miguel de los Ríos conserva su esencia rural, su arquitectura simple y su entorno natural intacto, convirtiéndose en un lugar perfecto para escapadas de fin de semana o vacaciones diferentes.
+      </p>
+<section class="contenedor-destacados4">
+  <div>        
+  <img src="../img/sanmigueldelrio1.jpg" class="fotosdesecciones" alt="sanmiguel1">
+      <img src="../img/sanmigueldelrio2.jpg" class="fotosdesecciones" alt="sanmiguel2">
+    </div>  
+    </section>
+        <div class="ajuste-iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90991.08717569998!2d-64.71940811755874!3d-32.05635824792811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2c877d0a9ffc3%3A0x9f7b31cd6e23ee4a!2sSan%20Miguel%20de%20los%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1759503436241!5m2!1ses-419!2sar" width="1200" height="400" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
 
-        <div class="grid-footer3">
-          <section>
-            <h4>SEGUINOS</h4>
-            <img src="../img/logo facebook.png" class="" alt="logo"></img>
-            <img src="../img/logo instagram.png" alt="logo"></img>
-          </section>
+    <h2>El Bolson - Río Negro</h2>
+      <h4> Famosa por sus cervezas artesanales, bosques y montañas.</h4>
+      <p> El Bolsón se caracteriza por ser una ciudad turística de la Patagonia argentina, con una fuerte cultura artesanal y natural, destacada por su producción de miel, fruta fina, lúpulos y cervezas. Es un destino popular para el turismo de aventura, de bienestar y de naturaleza, ofreciendo paisajes montañosos, bosques y actividades como senderismo, camping, y deportes de invierno. 
+      </p>
+<section class="contenedor-destacados5">
+      <div>
+      <img src="../img/elbolson1.jpg" class="fotosdesecciones" alt="elbolson1">
+      <img src="../img/elbolson2.jpg" class="fotosdesecciones" alt="elbolson2">
+    </div>  
+    </section>
+      <div class="ajuste-iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47465.794934148944!2d-71.56514582939865!3d-41.96566436501129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961bbe292d49ca89%3A0xa4fcd4026336e0f6!2zRWwgQm9sc8OzbiwgUsOtbyBOZWdybw!5e0!3m2!1ses-419!2sar!4v1759503237832!5m2!1ses-419!2sar" width="1200" height="400" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+     </div>
+
+<section class="aviso">
+  <h2>SEGUÍ MIS VIAJES POR ARGENTINA.!!</h2>
+</section>
+
+    <!--Este es el final de la pagina-->
+    <footer class="grid-footer">
+      <div class="grid-footer1">
+        <img src="../img/logo.png" alt="logo">
+      </div>
+
+      <div class="grid-footer2">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./norte.html">Norte</a></li>
+          <li><a href="../pages/sur.html">Sur y Patagonia</a></li>
+          <li><a href="../pages/destacados.html">Destacados</a></li>
+          <li><a href="../pages/contact.html">Contáctenos</a></li>
+        </ul>
+      </div>
+
+      <div class="grid-footer3">
+        <h6>SEGUINOS</h6>
+        <div class="grid-icons">
+          <img src="../img/logo facebook.png" class="" alt="logo"></img>
+          <img src="../img/logo instagram.png" alt="logo"></img>
         </div>
-        <div class="grid-footer4">
-        <p>Diseño: panchoMDQ</p>
-        </div>
-       
+        <p>Design:panchoMDQ</p>
+      </div>
     </footer>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

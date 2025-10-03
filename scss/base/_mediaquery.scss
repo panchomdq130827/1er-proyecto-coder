@@ -1,4 +1,6 @@
-//index//
+
+
+
 @media screen and (max-width:811px) {
   .grid-provincias {
     display: block;
@@ -14,6 +16,22 @@
     padding: 10px;
     margin: 5px;
   }
+
+  .grid-galeriasur {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+
+  }
+
+  .img-1sur {
+    grid-row: span 1;
+  }
+
+  .img-4sur {
+    grid-column: span 1;
+  }
+
 }
 
 @media screen and (max-width:743px) {
@@ -55,8 +73,9 @@
 
 @media screen and (max-width:681px) {
 
-  .contenido2 div{
-        padding: 10px;
+  .contenido2 {
+    flex-direction: column;
+    padding: 10px;
   }
 
   .grid-footer {
@@ -65,6 +84,24 @@
     grid-template-columns: repeat(1, 1fr);
 
   }
+}
+
+
+@media screen and (max-width:533px) {
+
+
+.grid-galeria2sur {
+      display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+
+}
 }
 
 @media screen and (max-width:489px) {

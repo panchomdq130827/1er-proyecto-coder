@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-/* body */
+/* inicio pagina norte */
 
 body {
   color: rgb(255, 255, 255);
@@ -36,7 +36,6 @@ p {
 
 .grid-provincias {
   margin: 10px;
-  display: inline-block;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100%;
@@ -46,7 +45,7 @@ p {
 
 .grid-provincias div img {
   width: 100%;
-  padding: 5px;
+  padding: 20px;
 }
 
 .grid-provincias div h2 {
@@ -130,7 +129,7 @@ p {
   margin-top: 10px;
 }
 
-.contenido2 div {
+.contenido2 {
   width: 97%;
   display: flex;
   padding: 5px;
@@ -165,7 +164,7 @@ p {
   margin-top: 20px;
 }
 
-  p {
+p {
   padding: 10px;
 }
 
@@ -175,6 +174,14 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
   gap: 20px;
+}
+.grid-galeria div h5{
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  background-color: #00000046;
+  padding: 5px;
+  width: 100%;
 }
 
 .grid-galeria div img {
@@ -195,9 +202,7 @@ p {
   grid-column: span 2;
 }
 
-.grid-item {
-  position: relative;
-}
+
 
 .grid-item h3 {
   position: absolute;
@@ -276,6 +281,10 @@ p {
 /* fin de seccion de la pagina norte */
 
 /* seccion de la pagina sur */
+.imagen-encabezado img {
+  width: 100%;
+
+}
 
 .contenido1sur {
   justify-content: center;
@@ -283,7 +292,8 @@ p {
 }
 
 .contenido1sur div h2 {
-  background-color: hsla(44, 94%, 48%, 0.808);
+  background: #ebf26b;
+  background: radial-gradient(circle, rgba(235, 242, 107, 1) 1%, rgba(242, 222, 65, 1) 43%, rgba(232, 232, 46, 1) 71%, rgba(253, 255, 212, 1) 91%);
   margin-top: 20px;
 }
 
@@ -330,10 +340,13 @@ p {
 }
 
 .contenido2sur h2 {
-  background-color: hsla(44, 94%, 48%, 0.808);
+  background: #ebf26b;
+  background: radial-gradient(circle, rgba(235, 242, 107, 1) 1%, rgba(242, 222, 65, 1) 43%, rgba(232, 232, 46, 1) 71%, rgba(253, 255, 212, 1) 91%);
 }
 
 .contenido2sur h3 {
+  background: #ebf26b;
+  background: radial-gradient(circle, rgba(235, 242, 107, 1) 1%, rgba(242, 222, 65, 1) 43%, rgba(232, 232, 46, 1) 71%, rgba(253, 255, 212, 1) 91%);
   padding: 5px;
 }
 
@@ -351,9 +364,7 @@ p {
   object-fit: cover;
 }
 
-.grid-item {
-  position: relative;
-}
+
 
 .grid-item h3 {
   position: absolute;
@@ -364,6 +375,14 @@ p {
   width: 100%;
 }
 
+h2 {
+  background: #f7f4be;
+  background: linear-gradient(98deg, rgba(247, 244, 190, 1) 15%,
+      rgba(219, 240, 144, 1) 48%, rgba(236, 240, 163, 1) 69%,
+      rgba(253, 255, 212, 1) 91%);
+  text-align: center;
+}
+
 .carouselsur {
   max-width: 800px;
   max-height: 600px;
@@ -372,12 +391,154 @@ p {
 
 /* fin pagina sur */
 
+/*inicio destacados */
+.carouseldestacados {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+p {
+  padding: 10px;
+}
+
+h2 {
+  background: #f7f4be;
+  background: linear-gradient(98deg, rgba(247, 244, 190, 1) 15%,
+      rgba(219, 240, 144, 1) 48%, rgba(236, 240, 163, 1) 69%,
+      rgba(253, 255, 212, 1) 91%);
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+
+.ajuste-iframe {
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  /* Opcional: Define un alto para que la alineación vertical tenga efecto */
+}
+
+iframe {
+  /* Opcional: Define el tamaño del iframe */
+  width: 100%;
+  height: 300px;
+  margin: 10px;
+}
+
+.contenedor-destacados1 {
+  background: #ebf29d;
+  background: linear-gradient(90deg, rgba(235, 242, 157, 1) 0%, rgba(198, 207, 107, 1) 28%, rgba(158, 199, 87, 1) 50%,
+      rgba(209, 213, 84, 1) 83%, rgba(247, 245, 176, 1) 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.contenedor-destacados1 img {
+  padding: 20px;
+}
+
+
+.contenedor-destacados2 {
+  background: #ebf29d;
+  background: linear-gradient(90deg, rgba(235, 242, 157, 1) 0%, rgba(198, 207, 107, 1) 28%, rgba(158, 199, 87, 1) 50%,
+      rgba(209, 213, 84, 1) 83%, rgba(247, 245, 176, 1) 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.contenedor-destacados2 img {
+  padding: 20px;
+}
+
+.contenedor-destacados3 {
+  background: #ebf29d;
+  background: linear-gradient(90deg, rgba(235, 242, 157, 1) 0%, rgba(198, 207, 107, 1) 28%, rgba(158, 199, 87, 1) 50%,
+      rgba(209, 213, 84, 1) 83%, rgba(247, 245, 176, 1) 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.contenedor-destacados3 img {
+  padding: 20px;
+}
+
+.contenedor-destacados4 {
+  background: #ebf29d;
+  background: linear-gradient(90deg, rgba(235, 242, 157, 1) 0%, rgba(198, 207, 107, 1) 28%, rgba(158, 199, 87, 1) 50%,
+      rgba(209, 213, 84, 1) 83%, rgba(247, 245, 176, 1) 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.contenedor-destacados4 img {
+  padding: 20px;
+}
+
+.contenedor-destacados5 {
+  background: #ebf29d;
+  background: linear-gradient(90deg, rgba(235, 242, 157, 1) 0%, rgba(198, 207, 107, 1) 28%, rgba(158, 199, 87, 1) 50%,
+      rgba(209, 213, 84, 1) 83%, rgba(247, 245, 176, 1) 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.contenedor-destacados5 img {
+  padding: 20px;
+}
+
+.avisos h3 {
+  color: #ebf26b;
+  background: #f7f4be;
+  background: linear-gradient(98deg, rgba(247, 244, 190, 1) 15%,
+      rgb(236, 241, 165) 48%, rgba(236, 240, 163, 1) 69%,
+      rgba(253, 255, 212, 1) 91%);
+  text-align: center;
+  font-size: 30px;
+
+}
+
+
+
+/* fin de pagina destacados */
 /* aca arranca el formulario de contacto */
+
 .baseformulario {
   display: flex;
   justify-content: center;
   margin: 10px;
+ padding: 20px;
 }
+.comentario-form {
+  margin-right: 30px;
+justify-content: center;
+  align-items: center;
+}
+.comentario-form div h5{
+  text-align: center;
+  margin: 20px;
+}
+
 
 .contenido-form {
   background-color: #f1f1c3;
@@ -440,46 +601,42 @@ p {
 
 /* inicio footer general*/
 .grid-footer {
-  display: grid;
-  background-color: hsla(44, 84%, 63%, 0.808);
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  gap: 20px;
-  align-items: center;
-  justify-items: center;
-  text-align: center;
+    display: grid;
+    background-color: hsla(44, 84%, 63%, 0.808);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
 
+    .grid-footer1 {
+        padding: 10px;
+
+        img {
+            width: 242px;
+        }
+    }
+
+    .grid-footer2 {
+        ul {
+            padding: 10px;
+            list-style: none;
+        }
+
+        li a {
+            font-size: small;
+            text-decoration: none;
+            &:hover{color: brown;}
+        }
+    }
+
+    .grid-footer3 {
+        p{ font-size: small;}
+    }
 }
 
-.grid-footer1 {
-  padding: 10px;
 
-}
-
-.grid-footer1 img {
-  width: 242px;
-
-}
-
-.grid-footer2 ul {
-  padding: 10px;
-  list-style: none;
-
-}
-
-.grid-footer2 ul li a {
-  font-size: small;
-  text-decoration: none;
-}
-
-.grid-footer2 a:hover {
-  color: brown;
-
-}
-
-.grid-footer3 p {
-  font-size: small;
-}
 
 /* fin footer general */
 
@@ -500,25 +657,28 @@ p {
     padding: 10px;
     margin: 5px;
   }
+
+  .grid-galeriasur {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+
+  }
+
+  .img-1sur {
+    grid-row: span 1;
+  }
+
+  .img-4sur {
+    grid-column: span 1;
+  }
+
 }
 
+
 @media screen and (max-width:743px) {
-  .grid-galeria {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200px 200px;
-  }
 
-  .img-1 {
-    grid-column: span 1;
-  }
 
-  .img-4 {
-    grid-column: span 1;
-  }
-
-  .img-5 {
-    grid-column: span 1;
-  }
 
   .grid-item {
     position: relative;
@@ -542,7 +702,6 @@ p {
 @media screen and (max-width:681px) {
 
   .contenido2 div {
-   
     padding: 10px;
   }
 
@@ -553,6 +712,25 @@ p {
 
   }
 }
+
+
+@media screen and (max-width:533px) {
+
+
+  .grid-galeria2sur {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+
+  }
+}
+
 
 @media screen and (max-width:489px) {
   .grid-galeria {
