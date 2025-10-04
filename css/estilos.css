@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 .destacados .contenido1 {
   background-color: rgba(102, 121, 74, 0.712);
 }
@@ -73,21 +74,15 @@ p {
   margin: 10px;
 }
 
-  /* contenido de tarjeta norte---*/
-
 .grid-provincias .grid-item-norte {
   background-color: rgb(231, 224, 157);
   text-align: center;
 }
 
-  /* contenido de tarjeta centro---*/
-
 .grid-provincias .grid-item-centro {
   background-color: rgb(226, 216, 121);
   text-align: center;
 }
-
-  /* contenido de tarjeta sur */
 
 .grid-provincias .grid-item-surypatagonia {
   background-color: rgb(90, 196, 4);

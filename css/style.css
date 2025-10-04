@@ -175,7 +175,8 @@ p {
   grid-template-rows: 200px 200px 200px;
   gap: 20px;
 }
-.grid-galeria div h5{
+
+.grid-galeria div h5 {
   position: absolute;
   bottom: 0;
   color: #ffffff;
@@ -409,7 +410,8 @@ h2 {
       rgba(253, 255, 212, 1) 91%);
   text-align: center;
 }
-h4{
+
+h4 {
   text-align: center;
 }
 
@@ -527,14 +529,16 @@ iframe {
   display: flex;
   justify-content: center;
   margin: 10px;
- padding: 20px;
+  padding: 20px;
 }
+
 .comentario-form {
   margin-right: 30px;
-justify-content: center;
+  justify-content: center;
   align-items: center;
 }
-.comentario-form div h5{
+
+.comentario-form div h5 {
   text-align: center;
   margin: 20px;
 }
@@ -601,39 +605,44 @@ justify-content: center;
 
 /* inicio footer general*/
 .grid-footer {
-    display: grid;
-    background-color: hsla(44, 84%, 63%, 0.808);
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    gap: 20px;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
+  display: grid;
+  background-color: hsla(44, 84%, 63%, 0.808);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
 
-    .grid-footer1 {
-        padding: 10px;
+  .grid-footer1 {
+    padding: 10px;
 
-        img {
-            width: 242px;
-        }
+    img {
+      width: 242px;
+    }
+  }
+
+  .grid-footer2 {
+    ul {
+      padding: 10px;
+      list-style: none;
     }
 
-    .grid-footer2 {
-        ul {
-            padding: 10px;
-            list-style: none;
-        }
+    li a {
+      font-size: small;
+      text-decoration: none;
 
-        li a {
-            font-size: small;
-            text-decoration: none;
-            &:hover{color: brown;}
-        }
+      &:hover {
+        color: brown;
+      }
     }
+  }
 
-    .grid-footer3 {
-        p{ font-size: small;}
+  .grid-footer3 {
+    p {
+      font-size: small;
     }
+  }
 }
 
 
@@ -677,8 +686,20 @@ justify-content: center;
 
 
 @media screen and (max-width:743px) {
-
-
+.grid-galeria{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+}
+ .img-1{
+  grid-column: span 1;
+}
+ .img-4{
+  grid-column: span 1;
+}
+ .img-5{
+  grid-column: span 1;
+}
 
   .grid-item {
     position: relative;
