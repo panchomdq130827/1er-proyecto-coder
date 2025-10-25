@@ -626,10 +626,10 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 200px;
   }
-  .img-1sur {
+  .grid-galeriasur .img-1sur {
     grid-row: span 1;
   }
-  .img-4sur {
+  .grid-galeriasur .img-4sur {
     grid-column: span 1;
   }
   .contenedor-destacados1 div img {
@@ -797,7 +797,7 @@ iframe {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    gap: 10px 10px;
+    gap: 0px 0px;
     grid-auto-flow: row;
     justify-content: center;
     justify-items: center;
@@ -807,7 +807,7 @@ iframe {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    gap: 10px 10px;
+    gap: 0px 0px;
     grid-auto-flow: row;
     justify-content: center;
     justify-items: center;
