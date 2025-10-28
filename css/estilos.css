@@ -39,7 +39,9 @@ p {
   color: black;
 }
 
-
+.nav-item a {
+  color: black;
+}
 
 .grid-provincias {
   margin: 10px;
@@ -565,7 +567,7 @@ iframe {
   font-size: medium;
   text-decoration: none;
 }
-.base-footer .contenido-footer2 :hover {
+.base-footer .contenido-footer2 li a:hover {
   color: brown;
 }
 .base-footer .contenido-footer3 h6 {
